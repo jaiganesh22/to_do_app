@@ -137,6 +137,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
     'http://localhost:8000',
+    'http://localhost:10000',
+    'http://0.0.0.0:10000',
 ]
 
 # Default primary key field type
