@@ -2,4 +2,3 @@ django
 django-cors-headers
 django-rest-framework
 gunicorn
-whitenoise
