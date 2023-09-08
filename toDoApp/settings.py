@@ -139,7 +139,6 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
     'http://localhost:10000',
     'http://0.0.0.0:10000',
-    'https://my-todos-1sdj.onrender.com/',
 ]
 
 # Default primary key field type
