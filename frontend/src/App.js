@@ -44,7 +44,7 @@ class App extends React.Component {
 
   fetchTasks() {
     console.log("Fetching...");
-    fetch("http://127.0.0.1:8000/api/task-list/")
+    fetch("https://my-todos-xqgi.onrender.com/api/task-list/")
       .then((response) => {
         return response.json();
       })
